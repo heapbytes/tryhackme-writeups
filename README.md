@@ -1,5 +1,5 @@
 # Writeups
-Walkthrough's of some Tryhackme machines 
+Walkthrough of some Tryhackme machines 
 
 # Blog 
-You can read all of my tryhackme on my blog : https://heapbytes.github.io/tags/thm/
+You can read all of my tryhackme writeups on my blog : https://heapbytes.github.io/tags/thm/
